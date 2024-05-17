@@ -4,11 +4,13 @@
 
 #ifndef HEXXAGON_HEXXAGONPAWN_H
 #define HEXXAGON_HEXXAGONPAWN_H
-
+#include "Pawn.h"
 
 class HexxagonPawn
 {
-
+    Pawn pawn;
+    std::pair<float,float> tilePos;
+    bool focused;
 };
 
 

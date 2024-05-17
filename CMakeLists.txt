@@ -46,6 +46,7 @@ add_executable(Hexxagon main.cpp
         src/HexxagonPawn.cpp
         include/HexxagonPawn.h
         Util.cpp
+        include/Pawn.h
 )
 target_link_libraries(Hexxagon fmt
         sfml-graphics sfml-system
